@@ -19,7 +19,7 @@ struct ContentView: View {
         VStack {
 
             Picker("Mode", selection: $selectedMode) {
-                Text("Clock").tag(0)
+                Text("Clock is here").tag(0)
                 Text("Stopwatch").tag(1)
                 Text("World").tag(2)
                 Text("Alarms").tag(3)
